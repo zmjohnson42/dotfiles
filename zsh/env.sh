@@ -8,6 +8,11 @@ export PATH="/usr/local/share/python:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbi
 ## folders
 alias p="cd ~/Projects"
 alias .f="cd ~/.dotfiles"
+alias crbn="cd ~/Projects/sandbox/CRBN"
+alias sand="cd ~/Projects/sandbox"
+
+## vim
+alias v="vim"
 
 ## git
 alias gs="git status -s"
