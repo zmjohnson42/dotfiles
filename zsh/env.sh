@@ -11,7 +11,6 @@ alias .f="cd ~/.dotfiles"
 
 ## git
 alias gs="git status -s"
-alias ga="git add -A"
 alias gc="git commit"
 alias gf="git fetch"
 alias gfa="git fetch --all"
