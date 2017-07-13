@@ -19,6 +19,3 @@ alias v="vim"
 
 ## git
 alias gs="git status -s"
-alias gc="git commit"
-alias gf="git fetch"
-alias gfa="git fetch --all"
