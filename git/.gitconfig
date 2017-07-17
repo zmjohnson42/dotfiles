@@ -1,1 +1,12 @@
-/Users/zjohnson/.gitconfig
+# This is Git's per-user configuration file.
+[core]
+	editor = vim
+	excludesfile = /Users/zjohnson/.gitignore_global
+
+[user]
+# Please adapt and uncomment the following lines:
+	name = Zach Johnson
+	email = zach.johnson@dialogtech.com
+
+[web]
+	browser = google-chrome

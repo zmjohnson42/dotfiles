@@ -1,1 +1,4 @@
-/Users/zjohnson/.gitignore_global
+.DS_Store
+._.DS_Store
+**/.DS_Store
+**/._.DS_Store

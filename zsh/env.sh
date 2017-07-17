@@ -10,10 +10,10 @@ alias devdep="bundle exec cap development deploy"
 # alias brewup='brew update; brew upgrade; brew prune; brew cleanup; brew doctor'
 
 ## folders
-alias p="cd ~/Projects"
+alias dt="cd ~/DialogTech"
 alias .f="cd ~/.dotfiles"
-alias crbn="cd ~/Projects/sandbox/CRBN"
-alias sand="cd ~/Projects/sandbox"
+alias crbn="cd ~/DialogTech/sandbox/CRBN"
+alias sand="cd ~/DialogTech/sandbox"
 
 ## vim
 alias v="vim"
