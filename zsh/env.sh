@@ -1,7 +1,7 @@
 #!/bin/zsh
 
 # PATHS
-export PATH="/usr/local/share/python:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+export PATH="/usr/local/share/python:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbina"
 # export EDITOR='subl -w'
 
 # ALIASES
@@ -9,11 +9,18 @@ export PATH="/usr/local/share/python:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbi
 alias devdep="bundle exec cap development deploy"
 # alias brewup='brew update; brew upgrade; brew prune; brew cleanup; brew doctor'
 
+## shell
+alias cls="clear"
+alias zln="~/.dotfiles/ln.zsh"
 ## folders
 alias dt="cd ~/DialogTech"
 alias .f="cd ~/.dotfiles"
 alias crbn="cd ~/DialogTech/sandbox/CRBN"
 alias sand="cd ~/DialogTech/sandbox"
+alias mods="cd ~/DialogTech/sandbox/CRBN/application/modules"
+alias org="cd ~/DialogTech/sandbox/Organic/"
+alias migra="cd ~/DialogTech/sandbox/LaMigra"
+alias ifby="cd ~/DialogTech/sandbox/Ifbyphone"
 
 ## vim
 alias v="vim"

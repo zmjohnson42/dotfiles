@@ -1,18 +1,21 @@
-#!/bin/zsh zsh
-echo "Starting Links"
-echo "--------------"
+#!/bin/zsh
+print_header() { 
+    print ::
+    print :: $val
+    print ::
+}
 
 ROOT=$(pwd)
-
+print_header(Starting the Link Process);
 ln -s $ROOT/vim/.vimrc ~
-ln -s ~/.dotfiles/vim/.vim_runtime ~
+ln -s $ROOT/vim/.vim_runtime ~
 
-ln -s ~/.dotfiles/sublime-text/projects ~/Documents/sublime-text/
-ln -s ~/.dotfiles/sublime-text/settings/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
+ln -s $ROOT/sublime-text/projects ~/Documents/sublime-text/
+ln -s $ROOT/sublime-text/settings/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
 
-ln -s ~/.dotfiles/zsh/.oh-my-zsh ~
-ln -s ~/.dotfiles/zsh/.zshrc ~
-ln -s ~/.dotfiles/zsh/.zlogin ~
+ln -s $ROOT/zsh/.oh-my-zsh ~
+ln -s $ROOT/zsh/.zshrc ~
+ln -s $ROOT/zsh/.zlogin ~
 
-ln -s ~/.dotfiles/git/.gitconfig ~
-ln -s ~/.dotfiles/git/.gitignore_global ~
+ln -s $ROOT/git/.gitconfig ~
+ln -s $ROOT/git/.gitignore_global ~
