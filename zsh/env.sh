@@ -21,6 +21,7 @@ alias mods="cd ~/DialogTech/sandbox/CRBN/application/modules"
 alias org="cd ~/DialogTech/sandbox/Organic/"
 alias migra="cd ~/DialogTech/sandbox/LaMigra"
 alias ifby="cd ~/DialogTech/sandbox/Ifbyphone"
+alias migrate="./bin/migrate migrations:migrate"
 
 ## vim
 alias v="vim"
