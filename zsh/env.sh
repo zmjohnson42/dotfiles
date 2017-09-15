@@ -7,7 +7,8 @@ export PATH="/usr/local/share/python:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbi
 # ALIASES
 # dev
 alias devdep="bundle exec cap development deploy"
-# alias brewup='brew update; brew upgrade; brew prune; brew cleanup; brew doctor'
+alias pushdep="gp ibp-ghd secure-dev && devdep"
+#alias brewup='brew update; brew upgrade; brew prune; brew cleanup; brew doctor'
 
 ## shell
 alias cls="clear"
@@ -28,3 +29,6 @@ alias v="vim"
 
 ## git
 alias gs="git status -s"
+
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"

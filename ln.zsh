@@ -1,12 +1,6 @@
 #!/bin/zsh
-print_header() { 
-    print ::
-    print :: $val
-    print ::
-}
 
 ROOT=$(pwd)
-print_header(Starting the Link Process);
 ln -s $ROOT/vim/.vimrc ~
 ln -s $ROOT/vim/.vim_runtime ~
 
