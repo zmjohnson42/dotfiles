@@ -1,0 +1,60 @@
+{
+    "editor.cursorBlinking": "phase",
+    "editor.cursorStyle": "line",
+    "editor.fontSize": 16,
+    "editor.fontFamily": "Fira Code, monospace",
+    "editor.fontLigatures": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "none",
+    "editor.wordWrap": "on",
+
+    "explorer.autoReveal": false,
+
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true
+    },
+
+    "window.zoomLevel": 1,
+    "window.title": "${activeEditorMedium}",
+
+    "workbench.colorTheme": "Monokai Pro",
+    "workbench.sideBar.location": "left",
+    "workbench.activityBar.visible": true,
+    "workbench.editor.showTabs": true,
+    "workbench.iconTheme": "material-icon-theme",
+
+    "eslint.options": {
+        "configFile": "/Users/zjohnson/DialogTech/sandbox/CRBN/.eslintrc.js"
+    },
+
+    "alignment.surroundSpace": {
+        "colon": [
+            -1,
+            1
+        ],
+        "assignment": [
+            1,
+            1
+        ],
+        "arrow": [
+            1,
+            1
+        ],
+        "comment": 2
+    },
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": false,
+        "suppressCommitNotFoundWarning": false,
+        "suppressFileNotUnderSourceControlWarning": false,
+        "suppressGitVersionWarning": false,
+        "suppressLineUncommittedWarning": false,
+        "suppressNoRepositoryWarning": false,
+        "suppressUpdateNotice": false,
+        "suppressWelcomeNotice": true
+    },
+}

@@ -8,6 +8,8 @@ ln -s $ROOT/sublime-text/projects ~/Documents/sublime-text/
 ln -s $ROOT/sublime-text/settings/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
 
 ln -s $ROOT/vscode/CRBN.code-workspace ~/Documents/vscode/
+ln -s $ROOT/vscode/settings.json ~/Library/Application\ Support/Code\ -\ Insiders/User/settings.json
+
 
 ln -s $ROOT/zsh/.oh-my-zsh ~
 ln -s $ROOT/zsh/.zshrc ~
