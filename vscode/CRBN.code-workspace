@@ -13,5 +13,8 @@
 			"path": "/Users/zjohnson/DialogTech/sandbox/LaMigra"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"jira.baseUrl": "https://dialogtech.atlassian.net\/",
+		"jira.projectNames": "DT-Portal"
+	}
 }

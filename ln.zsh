@@ -5,6 +5,7 @@ ln -s $ROOT/vim/.vimrc ~
 ln -s $ROOT/vim/.vim_runtime ~
 
 ln -s $ROOT/vscode/CRBN.code-workspace ~/Documents/vscode/
+ln -s $ROOT/vscode/cornerstone.code-workspace ~/Docuemnts/vscode/
 ln -s $ROOT/vscode/settings.json ~/Library/Application\ Support/Code\ -\ Insiders/User/settings.json
 
 ln -s $ROOT/zsh/.oh-my-zsh ~

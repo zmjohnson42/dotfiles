@@ -32,3 +32,5 @@ alias gs="git status -s"
 
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
+
+## mongo
