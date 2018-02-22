@@ -24,6 +24,10 @@ alias migra="cd ~/DialogTech/sandbox/LaMigra"
 alias ifby="cd ~/DialogTech/sandbox/Ifbyphone"
 alias migrate="./bin/migrate migrations:migrate"
 
+## jupyter
+alias notes="cd ~/Documents/JupyterNotebooks"
+alias jup="jupyter notebook"
+
 ## vim
 alias v="vim"
 
