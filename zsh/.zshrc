@@ -90,3 +90,5 @@ source $ZSH/oh-my-zsh.sh
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
+export JRUBY_OPTS=" --server --headless -Xcext.enabled=false -Xcompile.invokedynamic=false -Xcompile.mode.fastest=true -Xjit.treshold=20 -J-XX:PermSize=96m -J-XX:MaxPermSize=192m -J-XX:ReservedCodeCacheSize=80m -J-Xmn512m -J-Xms1536m -J-Xmx2048m -J-Xss1024k -J-XX:CompileThreshold=8000"
+

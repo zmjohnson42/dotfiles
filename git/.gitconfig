@@ -10,3 +10,5 @@
 
 [web]
 	browser = google-chrome
+[pager]
+	branch = false
