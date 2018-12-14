@@ -12,3 +12,5 @@
 	browser = google-chrome
 [pager]
 	branch = false
+[init]
+	templatedir = ~/.git-templates

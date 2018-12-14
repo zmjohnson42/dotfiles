@@ -2,7 +2,11 @@
 
 # PATHS
 export PATH="/usr/local/share/python:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbina"
-# export EDITOR='subl -w'
+export PYENV_ROOT="$HOME/.pyenv";
+export PATH="$PYENV_ROOT/bin:$PATH";
+
+eval "$(pyenv init -)";
+eval $(direnv hook zsh);
 
 # ALIASES
 # dev
