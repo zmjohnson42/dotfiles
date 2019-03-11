@@ -24,6 +24,9 @@
 	],
 	"settings": {
 		"jira.baseUrl": "https://dialogtech.atlassian.net\/",
-		"jira.projectNames": "DT-Portal"
+		"jira.projectNames": "DT-Portal",
+		"cSpell.words": [
+			"favicons"
+		]
 	}
 }
