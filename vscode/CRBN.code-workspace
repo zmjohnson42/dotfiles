@@ -16,16 +16,18 @@
 			"path": "/Users/zjohnson/DialogTech/sandbox/Cognition"
 		},
 		{
-			"path": "/Users/zjohnson/Documents/www/simple_site"
+			"path": "/Users/zjohnson/DialogTech/Denali"
 		},
 		{
-			"path": "/Users/zjohnson/DialogTech/sandbox/CSR"
+			"path": "/Users/zjohnson/DialogTech/Atlas-GraphQL"
 		}
 	],
 	"settings": {
 		"jira.baseUrl": "https://dialogtech.atlassian.net\/",
 		"jira.projectNames": "DT-Portal",
 		"cSpell.words": [
+			"Preloader",
+			"adhearsion",
 			"favicons"
 		]
 	}

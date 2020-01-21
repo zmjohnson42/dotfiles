@@ -13,6 +13,7 @@ eval $(direnv hook zsh);
 alias devdep="bundle exec cap development deploy"
 alias pushdep="gp ibp-ghd secure-dev && devdep"
 #alias brewup='brew update; brew upgrade; brew prune; brew cleanup; brew doctor'
+alias webstat="bundle exec cap development deploy:web:status"
 
 ## shell
 alias cls="clear"
@@ -37,6 +38,11 @@ alias v="vim"
 
 ## git
 alias gs="git status -s"
+
+## functions
+vstat () {
+    vagrant status | awk '{if (NF==3 && NR!=1 && ($2 == "running")) print "\033[32m"($1); else if (NF==3 && NR!=1) print "\033[31m" ($1)}'
+}
 
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
